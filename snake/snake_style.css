@@ -1,0 +1,19 @@
+@font-face {
+    font-family: comicSans;
+    src: url("../assets/font/comic-sans-ms-font-family/COMIC.TTF");
+}
+
+
+/*------Entry Animation-----*/
+#intro-bg {
+    font-family: comicSans;
+    background-color: forestgreen;
+}
+
+#intro-text {
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh
+}

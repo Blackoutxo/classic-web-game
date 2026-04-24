@@ -1,0 +1,67 @@
+@font-face {
+    font-family: comicSans;
+    src: url("./assets/font/comic-sans-ms-font-family/COMIC.TTF");
+}
+
+body {
+    font-family: comicSans;
+    background-image: url("./assets/images/Background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+h1 {
+    font-family: comicSans;
+    text-align: center;
+    text-decoration-color: lightblue;
+}
+
+/* GAME SECTION */
+#game-section {
+    display: flex;
+    border: 3px solid rgb(54, 212, 107);
+    max-width: 1000px;
+    margin:0 auto 50px;
+    background-color: dimgray;
+    padding: 2px;
+    border-radius: 5px;    
+}
+
+#game-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+/*------------------------ GAMES ------------------------*/
+
+/* SNAKE */
+#snake {
+    background-color: transparent;
+    text-decoration-color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#snake:hover {
+    transform : scale(1.2);
+}
+
+/* TETRIS */
+#tetris {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#tetris:hover {
+    transform: scale(1.2);
+}
+
