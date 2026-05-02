@@ -4,3 +4,5 @@ This website's homepage consists of games that when click will lead you to the g
 Games consists as of right now (not finished):
 - Snake
 - Tetris
+
+![Uploading image.png…]()
