@@ -3,17 +3,19 @@
     src: url("../assets/font/comic-sans-ms-font-family/COMIC.TTF");
 }
 
+/*------Snake Game------*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
 
-/*------Entry Animation-----*/
-#intro-bg {
-    font-family: comicSans;
+body {
+    display: flex;
+    flex-direction: column;
     background-color: forestgreen;
 }
 
-#intro-text {
-    font-size: 10em;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    height: 100vh
-}
+
